@@ -13,19 +13,9 @@ body {
 .right {
   float: right;
 }
-h1 {
-  font-family: "Brush Script MT"; 
-  font-style: oblique; 
-  font-size: 2em;
-}
-#profile-card {
-  width: 100%px;
-  height: auto;
-}
 #profile {
   width: 30%;
   height: 100vh;
-  margin: 0 auto;
   text-align: center;
   background-color: azure;
   opacity: 70%;
@@ -38,6 +28,7 @@ h1 {
   color:aqua;
   padding: 15px 15px;
   letter-spacing: .005em;
+  line-height: 1,67;
   text-shadow: 1px 1px black;
 }
 p::first-letter {
@@ -48,6 +39,7 @@ ul {
 }
 li {
   display: inline;
+  padding: 10px;
 }
 .kiskep {
   opacity: 90%;
@@ -60,7 +52,7 @@ li {
 }
 #picture {
   margin: 15px auto;
-  height: 300px;
+  height: 18em;
   width: auto;
   filter: brightness(80%)
 }
@@ -74,5 +66,9 @@ li {
   transform: rotateY(100deg);
 }
 .fa:hover {
-  transform: scale(1.4)
+  transform: scale(1.7)
+}
+#cim {
+  height: 6em;
+  width: auto;
 }
