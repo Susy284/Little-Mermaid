@@ -63,7 +63,7 @@ li {
   margin: 15px auto;
 }
 #name:hover {
-  transform: rotateY(100deg);
+  transform: skewX(10deg);
 }
 .fa:hover {
   transform: scale(1.7)
