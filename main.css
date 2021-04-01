@@ -28,7 +28,7 @@ body {
   color:aqua;
   padding: 15px 15px;
   letter-spacing: .005em;
-  line-height: 1,67;
+  line-height: 1.6;
   text-shadow: 1px 1px black;
 }
 p::first-letter {
@@ -51,7 +51,7 @@ li {
   transform: scale(2.2);
 }
 #picture {
-  margin: 15px auto;
+  margin: 20px auto;
   height: 18em;
   width: auto;
   filter: brightness(80%)
