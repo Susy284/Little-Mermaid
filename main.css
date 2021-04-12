@@ -38,8 +38,9 @@ ul {
   list-style-type: none;
 }
 li {
-  display: inline;
+  display: inline-block;
   padding: 10px;
+  width: 40px;
 }
 .kiskep {
   opacity: 90%;
@@ -51,16 +52,16 @@ li {
   transform: scale(2.2);
 }
 #picture {
-  margin: 20px auto;
+  margin-top: 30px;
   height: 18em;
-  width: auto;
   filter: brightness(80%)
 }
 #picture:hover {
   filter: brightness(100%)
 }
 #name {
-  margin: 15px auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 #name:hover {
   transform: skewX(10deg);
@@ -70,5 +71,4 @@ li {
 }
 #cim {
   height: 6em;
-  width: auto;
 }
