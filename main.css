@@ -69,18 +69,33 @@ p::first-letter {
 
 /* ==== LAYOUT STYLES ==== */
 #profile {
-  width: 30vw;
+  width: 30%;
   height: 100vh;
   background-color: azure;
   opacity: 70%;
   border-left: 5px solid aqua;
 }
 #description {
-  width: 70vw;
+  width: 70%;
   height: 100vh;
   color:aqua;
-  padding: 15px 15px;
+  padding: 1.5rem 1.5rem;
   text-shadow: 1px 1px black;
+}
+
+/* === Media query === */
+@media (max-width: 320px) {
+  #profile {
+    height: 30%;
+    width: 100vw;  
+  }
+  #description {
+    height: 70%;
+    width: 100vw;
+  }
+  #profile, #description {
+    float: none;
+  }
 }
 
 /* ==== COMPONENT STYLES ==== */
@@ -89,8 +104,8 @@ ul {
 }
 li {
   display: inline-block;
-  padding: 10px;
-  width: 40px;
+  padding: 1.5rem;
+  width: 2rem;
 }
 .kiskep {
   opacity: 90%;
@@ -102,20 +117,24 @@ li {
   transform: scale(2.2);
 }
 #picture {
-  margin-top: 30px;
+  margin-top: 1rem;
   height: 18em;
+  width: 9em;
   filter: brightness(80%)
 }
 #picture:hover {
   filter: brightness(100%)
 }
 #name {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 4em;
+  width: 8em; 
 }
 .fa:hover {
   transform: scale(0.7)
 }
 #cim {
   height: 5em;
+  width: 24em;
 }
