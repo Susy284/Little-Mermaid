@@ -84,7 +84,7 @@ p::first-letter {
 }
 
 /* === Media query === */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #profile {
     height: 30%;
     width: 100vw;  
